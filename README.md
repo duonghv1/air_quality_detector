@@ -31,7 +31,7 @@ AQI 152\
 Arco, Tesoro Carson Refinery, Bangle, Carson, Los Angeles County, California, 90810, United States of America\
 AQI 151\
 33.86117/N 117.96228/W\
-1880, West Southgate Avenue, Fullerton, Orange County, California, 92833, United States of America\
+1880, West Southgate Avenue, Fullerton, Orange County, California, 92833, United States of America
 
 
 
