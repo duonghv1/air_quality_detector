@@ -12,7 +12,7 @@ RANGE 30\
 THRESHOLD 100\
 MAX 5\
 AQI PURPLEAIR\
-REVERSE NOMINATIM\
+REVERSE NOMINATIM
 
 The program will output the following information: (the results change in according to the time the program is used, this is only a sample)
 
