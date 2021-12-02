@@ -1,6 +1,7 @@
-"Where are some places with bad air quality within 30 miles from where I am now?", that would be the kind of question that this program will help to answer. 
+The program is meant to asnwer such a question: "Where are some places with bad air quality within 30 miles from where I am now?"
 
-I have not implemented a GUI application for the program so the program will only work with user input into the shell for now. First of all, the program will read a sequence of lines of input from the Python shell that configure its behavior (look at the example below), then generate and print some output consistent with that configuration. 
+I have not implemented a GUI application for the program so the program will only work with user input into the shell for now. 
+First of all, the program will read a sequence of lines of input from the Python shell that configure its behavior (look at the example below), then generate and print some output consistent with that configuration. 
 The  goal of the program is this: Given a "center" point, a range (in miles), and an AQI threshold, and maximum number of locations to output, the program will print out a list of the locations within the given range of the center point having the worst AQI values that are at least as much as the threshold. 
 
 For example, when user input in the following format:
