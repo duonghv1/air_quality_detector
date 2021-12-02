@@ -1,9 +1,7 @@
-Nowadays, the Internet provides a valuable resource to help us to monitor and manage the impact of air quality. The program can help users answer the following question: 
-Where are some places where the air quality is unhealthy within 30 miles of where I am now?
+"Where are some places where the air quality is unhealthy within 30 miles of where I am now?", that would be the kind of question that this program will help to answer. 
 
-The program will read a sequence of lines of input from the Python shell that configure its behavior, then generate and print some output consistent with that configuration. 
-The general goal of the program is this: Given a "center" point, a range (in miles), and an AQI threshold, describe the locations within the given range of the center point 
-having the  worst AQI values that are at least as much as the threshold. 
+I have not implemented a GUI application for the program so the program will only work with user input into the shell for now. First of all, the program will read a sequence of lines of input from the Python shell that configure its behavior (look at the example below), then generate and print some output consistent with that configuration. 
+The  goal of the program is this: Given a "center" point, a range (in miles), and an AQI threshold, and maximum number of locations to output, the program will print out a list of the locations within the given range of the center point having the worst AQI values that are at least as much as the threshold. 
 
 For example, when user input in the following format:
 
@@ -14,7 +12,7 @@ MAX 5\
 AQI PURPLEAIR\
 REVERSE NOMINATIM
 
-The program will output the following information: (the results change in according to the time the program is used, this is only a sample)
+The program will output the following information: 
 
 CENTER 33.64324045/N 117.84185686276017/W\
 AQI 180\
@@ -32,6 +30,8 @@ Arco, Tesoro Carson Refinery, Bangle, Carson, Los Angeles County, California, 90
 AQI 151\
 33.86117/N 117.96228/W\
 1880, West Southgate Avenue, Fullerton, Orange County, California, 92833, United States of America
+
+(the results change in according to the time the program is used, this is only a sample)
 
 
 
