@@ -1,6 +1,9 @@
-Nowadays, the Internet provides a valuable resource to help us to monitor and manage the impact of air quality. The program can help users answer the following question: Where are some places where the air quality is unhealthy within 30 miles of where I am now?
+Nowadays, the Internet provides a valuable resource to help us to monitor and manage the impact of air quality. The program can help users answer the following question: 
+Where are some places where the air quality is unhealthy within 30 miles of where I am now?
 
-The program will read a sequence of lines of input from the Python shell that configure its behavior, then generate and print some output consistent with that configuration. The general goal of the program is this: Given a "center" point, a range (in miles), and an AQI threshold, describe the locations within the given range of the center point having the  worst AQI values that are at least as much as the threshold. 
+The program will read a sequence of lines of input from the Python shell that configure its behavior, then generate and print some output consistent with that configuration. 
+The general goal of the program is this: Given a "center" point, a range (in miles), and an AQI threshold, describe the locations within the given range of the center point 
+having the  worst AQI values that are at least as much as the threshold. 
 
 For example, when user input in the following format:
 
