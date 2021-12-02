@@ -15,7 +15,7 @@ AQI PURPLEAIR
 REVERSE NOMINATIM
 
 The program will output the following information: (the results change in according to the time the program is used, this is only a sample)
-CENTER 33.64324045/N 117.84185686276017/W\n
+CENTER 33.64324045/N 117.84185686276017/W
 AQI 180
 33.53814/N 117.5998/W
 Garcilla Drive, Orange County, California, 92690, United States of America
